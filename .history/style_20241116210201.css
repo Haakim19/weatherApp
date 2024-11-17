@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #2c2a2a;
+}
+.card{
+    width: 90%;
+    max-width: 500px;
+    color: #fff;
+    background:linear-gradient(135deg, #f5f7fa 0%, #587ebd 100%);
+    margin: 100px auto 0 ;
+    border-radius: 10px;
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
